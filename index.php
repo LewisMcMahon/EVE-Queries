@@ -42,8 +42,7 @@ if (isset($_GET["page"])){
 			//Gets the cont 
             if ($page == "")
             {
-            include("cont/home
-            .php");
+            include("cont/home.php");
             }
             else if (file_exists ("cont/".$page.".php"))
             {
