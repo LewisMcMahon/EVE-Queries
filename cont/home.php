@@ -2,8 +2,8 @@
 
 <?
 
-$solarsystem = new Atribute_SolarSystem;
+$solarsystem = new SolarSystem;
 
-print_r ($solarsystem->dataset);
+print_r ($solarsystem->getid("uusanen"));
 
 ?>

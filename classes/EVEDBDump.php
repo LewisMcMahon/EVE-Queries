@@ -12,10 +12,14 @@
         public $requredAtributes = false;
     }
     
+     class EVEDBDump_Region extends Region {
+        public $requredAtributes = false;
+    }
+    
     class EVEDBDump_Ship extends Ship {
         public $requredAtributes = false;
     }
     
-    class EVEDBDump_ShipType extends ShipType {
+    class EVEDBDump_ShipGroup extends ShipGroup {
         public $requredAtributes = false;
     }

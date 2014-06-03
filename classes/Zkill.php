@@ -1,6 +1,6 @@
 <?php
 
-    class EVEKill extends DataSet{
+    class ZKill extends DataSet{
         
         public $format = "xml";
         public $order = "3";
@@ -8,26 +8,30 @@
     }
     
     //atributes    
-    class EVEKill_SolarSystem extends EVEKill{
+    class ZKill_SolarSystem extends SolarSystem{
+        public $requredAtributes = false;
+    }
+    
+    class ZKill_Region extends Region{
         public $requredAtributes = false;
     }
       
-    class EVEKill_Corporation extends EVEKill{
+    class ZKill_Corporation extends Corporation{
         public $requredAtributes = false;
     }
     
-    class EVEKill_Alliance extends EVEKill{
+    class ZKill_Alliance extends Alliance{
         public $requredAtributes = false;
     }
     
-    class EVEKill_Character extends EVEKill{
+    class ZKill_Character extends Character{
         public $requredAtributes = false;
     }
     
-    class EVEKill_Ship extends EVEKill{
+    class ZKill_Ship extends Ship{
         public $requredAtributes = false;
     }
     
-    class EVEKill_ShipType extends EVEKill{
+    class ZKill_ShipGroup extends ShipGroup{
         public $requredAtributes = false;
     }    

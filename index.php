@@ -1,6 +1,11 @@
 <?php
-//Has all the classes in it
-require_once "classes/classes.php";
+//Has all the parent classes in it
+require_once "classes/parent.php";
+//including in the child classes
+require_once "classes/EVEAPI.php";
+require_once "classes/EVEDBDump.php";
+require_once "classes/ZKill.php";
+require_once "classes/EVEWho.php";
 
 //Has all the functions in it
 require_once "func/functions.php";

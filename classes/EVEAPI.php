@@ -11,6 +11,10 @@
     class EVEAPI_SolarSystem extends SolarSystem{
         public $requredAtributes = false;
     }
+    
+    class EVEAPI_Region extends Region{
+        public $requredAtributes = false;
+    }
      
     class EVEAPI_Corporation extends Corporation{
         public $requredAtributes = false;
@@ -28,6 +32,6 @@
         public $requredAtributes = false;
     }
     
-    class EVEAPI_ShipType extends ShipType{
+    class EVEAPI_ShipGroup extends ShipGroup{
         public $requredAtributes = false;
     }

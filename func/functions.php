@@ -41,34 +41,6 @@ function errors_set() {
 
 }
 
-function db_conect() {
-
-    if (what_is_url() == "localhost") {
-
-        $link = mysql_connect("localhost", "root", "");
-
-        return $link;
-
-        if (!$link) {
-            return die('Could not connect: ' . mysql_error());
-        }
-
-    } else {
-
-        //TODO Add the live Db info to the db connect function
-
-        $link = mysql_connect("lewismcmahon.com", "operationscalcu", "donthack11");
-
-        return $link;
-
-        if (!$link) {
-            return die('Could not connect: ' . mysql_error());
-        }
-
-    }
-
-}
-
 function get_trust() {
 
     if ($_SERVER['HTTP_EVE_TRUSTED'] == "No") {
